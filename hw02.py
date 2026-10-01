@@ -5,9 +5,10 @@
 # ------------------------------------------------------
 
 # Task 1.1:
+#  Function reads user inputs in docstring, then convert them into ints, and return both variables
 #  Complete the function "read_two_ints" below:
 def read_two_ints():
-    # ADD a Docstring for this function
+    ''' Insert the value for x and y'''
     # the return shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     user_x = input("Give me x: ")
@@ -15,12 +16,12 @@ def read_two_ints():
     user_y = input("Give me y: ")
     b = int(user_y)
     return a,b
-    #function reads user inputs in docstring, then convert them into ints,and return both variables
 
 # Task 2.1:
+#  Function computes a*b and a+b, prints both of the results, and returns (a*b)/(a+b)
 #  Complete the function "compute_multadd" below:
 def compute_multadd(a, b):
-    # ADD a Docstring for this function
+    '''Calculate and return the sum, the multiplication, and the division of the sum over the multiplication'''
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     mult_result = a*b
@@ -28,12 +29,13 @@ def compute_multadd(a, b):
     add_result = a+b
     print("add result:", add_result)
     return mult_result/add_result
-    # function computes a*b and a+b, prints both of the results, and returns (a*b)/(a+b)
+
 
 # Task 3.1:
+#  Print top border of 16 asterisks, prints input values and multadd results, then print the bottom border of 16 equal signs
 #  Complete the function "print_fancy" below:
 def print_fancy(a, b, ab_multadd):
-    # ADD a Docstring for this function
+    ''' Print the '''
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     print("*" *16)
@@ -42,10 +44,9 @@ def print_fancy(a, b, ab_multadd):
     print("second number:", b)
     print("multadd result:", ab_multadd)
     print("=" *16)
-    #print top border of 16 asterisks, prints input values and multadd results, then print the bottom border of 16 equal signs
-
+    
 def main ():
-    # ADD a Docstring for this function
+    ''' '''
     # Task 1.2:
     #  Add one line below to call read_two_ints (note that it returns two values)
     #  the call should provide no arguments
