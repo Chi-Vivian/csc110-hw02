@@ -35,7 +35,7 @@ def compute_multadd(a, b):
 #  Print top border of 16 asterisks, prints input values and multadd results, then print the bottom border of 16 equal signs
 #  Complete the function "print_fancy" below:
 def print_fancy(a, b, ab_multadd):
-    ''' Print the '''
+    ''' Print the numbers and the results in a place bordered by asterisks and equal signs'''
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     print("*" *16)
@@ -46,7 +46,6 @@ def print_fancy(a, b, ab_multadd):
     print("=" *16)
     
 def main ():
-    ''' '''
     # Task 1.2:
     #  Add one line below to call read_two_ints (note that it returns two values)
     #  the call should provide no arguments
